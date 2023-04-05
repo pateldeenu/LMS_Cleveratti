@@ -1,0 +1,21 @@
+const images = {
+	google_img : require('../image/google.png'),
+	speker_off : require('../image/spekeroff.png'),
+	speker_on : require('../image/spekeron.png'),
+	videocall_one_img : require('../image/profileimagesetup.png'),
+	videocall_two_img : require('../image/profileimagesetup.png'),	
+	videocall_three_img : require('../image/profileimagesetup.png'),
+	videocall_four_img : require('../image/profileimagesetup.png'),
+	videocall_five_img : require('../image/sswipe1img.png'),
+	videocall_six_img : require('../image/profileimagesetup.png'),
+	videocall_saven_img : require('../image/profileimagesetup.png'),
+	videocall_aeight_img : require('../image/profileimagesetup.png'),
+	videocall_aeight_img_two : require('../image/profileimagesetup.png'),
+	coueses_image_one : require('../image/homeslider7.png'),
+	coueses_image_one_two : require('../image/homeslider7.png'),
+	coueses_image_one_three : require('../image/homeslider7.png'),
+	coueses_image_one_four : require('../image/homeslider7.png'),
+	coueses_image_one_five : require('../image/homeslider7.png'),
+	Crideit_card:require('./creditcardimage.png'),
+ }
+ export default images;

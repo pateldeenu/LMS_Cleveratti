@@ -1,0 +1,240 @@
+
+import { StyleSheet,  } from 'react-native';
+import { SF,SW,widthPercent} from '../Components/Commonfile/Dimensions';
+
+export default StyleSheet.create({
+
+  minstyleviewphotograpgy: {
+    height: '100%',
+    width: '100%',
+   
+  },
+  keybordtopviewstyle: {
+    height: '100%',
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  minviewsigninscreen: {
+    width: '92%',
+    marginHorizontal: '5%',
+    marginTop: '0%',
+  },
+  minflexview: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    height: '100%',
+  },
+  whiteboxwhishlist: {
+    backgroundColor: 'white',
+    width: '100%',
+    textAlign: 'center',
+    marginRight:15,
+    paddingRight:Platform.OS === 'ios' ? 40 : 0,
+    borderRadius: 5,
+    paddingTop:10,
+    paddingBottom:10,
+    shadowColor: "black",
+    shadowColor: "black",
+    shadowOffset: {
+        width: 0,
+        height: Platform.OS === 'ios' ? 2 : 25,
+      },
+      shadowOpacity: 0.58,
+      shadowRadius: Platform.OS === 'ios' ? 2 : 25,
+      elevation: Platform.OS === 'ios' ? 1 : 2,
+    },
+    questionpapewrset: {
+      backgroundColor: 'white',
+      width: '100%',
+      textAlign: 'center',
+      marginRight:15,
+      height:40,
+      paddingRight:Platform.OS === 'ios' ? 40 : 0,
+      borderRadius: 5,
+      paddingTop:10,
+      paddingBottom:10,
+      shadowColor: "black",
+      shadowColor: "black",
+      shadowOffset: {
+          width: 0,
+          height: Platform.OS === 'ios' ? 2 : 25,
+        },
+        shadowOpacity: 0.58,
+        shadowRadius: Platform.OS === 'ios' ? 2 : 25,
+        elevation: Platform.OS === 'ios' ? 1 : 2,
+      },
+  flexexamboxview: {
+      flexDirection:'row',
+      marginBottom:15,
+      height:100,
+  },
+  questionview: {
+    flexDirection:'row',
+    marginBottom:15,
+},
+  whiteboxwhishlistmcq: {
+    backgroundColor: 'white',
+    width: '100%',
+    textAlign: 'center',
+    flexDirection:'row',
+    justifyContent:'center',
+    alignItems:'center',
+    marginRight:15,
+    borderRadius: 7,
+    paddingBottom:15,
+    shadowColor: "black",
+    shadowColor: "black",
+    shadowOffset: {
+        width: 0,
+        height: Platform.OS === 'ios' ? 2 : 25,
+      },
+      shadowOpacity: 0.58,
+      shadowRadius: Platform.OS === 'ios' ? 2 : 25,
+      elevation: Platform.OS === 'ios' ? 1 : 2,
+    },
+  boxintitle: {
+      color:'black',
+      fontFamily:'DMSans-Medium',
+      textAlign:'center',
+      width:'100%'
+  },
+  boxstyleminview: {
+      width:'100%',
+      marginBottom:10,
+  },
+  dotcolorset: {
+      backgroundColor:'green',
+      height:25,
+      width:25,
+      borderRadius:100,
+      marginRight:10,
+  },
+  wrongdot: {
+    backgroundColor:'red',
+    height:25,
+    width:25,
+    borderRadius:100,
+    marginRight:10,
+},
+notvisiteddot: {
+    backgroundColor:'gray',
+    height:25,
+    width:25,
+    borderRadius:100,
+    marginRight:10,
+},
+reviluterdot: {
+    backgroundColor:'blue',
+    height:25,
+    width:25,
+    borderRadius:100,
+    marginRight:10,
+    flexDirection:'row',
+    alignItems:'center',
+    justifyContent:'center',
+},
+minviewaboxin: {
+    flexDirection:'row',
+    width:'100%',
+    justifyContent:'space-between',
+    paddingLeft:10,
+    paddingRight:10,
+    paddingBottom:15,
+    paddingTop:0,
+},
+dotsetview: {
+    flexDirection:'row',
+    alignItems:'center',
+    width:'60%'
+},
+dotsetviewTWO: {
+    flexDirection:'row',
+    alignItems:'center',
+    width:'100%'
+},
+textcolorset: {
+    fontFamily:'DMSans-Medium',
+    fontSize:14,
+    color:'black',
+},
+centerviewset: {
+    textAlign:'center',
+    paddingLeft:10,
+},
+answerlastfontsize: {
+    fontFamily:'DMSans-Medium',
+    fontSize:17,
+    color:'black',
+},
+mcqminviewset: {
+    marginTop:13,
+    marginBottom:25,
+},
+bgvolorsetphysic: {
+    backgroundColor:'hsl(214.3, 83.2%, 51%)',
+    borderTopLeftRadius:7,
+    borderTopRightRadius:7,
+},
+physistextset: {
+    color:'white',
+    paddingLeft:25,
+    paddingTop:8,
+    paddingBottom:8,
+    fontFamily:'DMSans-Medium',
+    fontSize:17,
+},
+  GridViewContainer: {
+   flexDirection:'row',
+   justifyContent:'center',
+   paddingTop:10,
+   width:widthPercent(18),
+},
+widthsetround: {
+    width:'20.1%',
+},
+bgvolosetdigitall: {
+    backgroundColor:'green',
+    height:45,
+    width:45,
+    borderRadius:222,
+    alignItems:'center',
+    justifyContent:'center',
+},
+bgvolosetdigitalltwo: {
+  backgroundColor:'red',
+  height:45,
+  width:45,
+  borderRadius:222,
+  alignItems:'center',
+  justifyContent:'center',
+},
+bgvolosetdigitallthree: {
+  backgroundColor:'gray',
+  height:45,
+  width:45,
+  borderRadius:222,
+  alignItems:'center',
+  justifyContent:'center',
+},
+bgvolosetdigitallfour: {
+  backgroundColor:'blue',
+  height:45,
+  width:45,
+  borderRadius:222,
+  alignItems:'center',
+  justifyContent:'center',
+},
+GridViewTextLayout: {
+color:'white',
+fontFamily:'DMSans-Medium',
+paddingRight:3,
+},
+iconstylebox: {
+ color:'white',
+},
+
+});
